@@ -17,7 +17,7 @@ spec:
       imagePullSecrets:
         - name: regcred
       containers:
-        - image: registry1.codingwmax.com/registry/app1:0.0.1-SNAPSHOT
+        - image: registry1.codingwmax.com/registry/app1:0.0.2
           imagePullPolicy: Always
           name: spring-boot
           ports:
